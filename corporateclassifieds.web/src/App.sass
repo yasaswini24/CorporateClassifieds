@@ -1,0 +1,139 @@
+.App
+  font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif
+  .flex
+    display: flex
+.main-content
+  flex-grow: 1
+  flex-shrink: 1
+  min-width: 0
+  flex-basis: 100px
+  a
+    color: unset
+    text-decoration: unset
+
+// Variables
+
+// Colors
+$primary: rgb(118, 97, 139)
+
+$grey-bg: rgb(244, 245, 248)
+$grey-darker: rgb(164, 170, 178)
+$grey-top-menu: rgb(227, 229, 232)
+
+$text-dark: rgb(130, 130, 130)
+$text-darker: rgb(34, 34, 34)
+
+// Fonts
+$sans-serif: 'Segoe UI', Helvetica, Arial, sans-serif
+
+// Breakpoints (Bootstrap 4)
+$bp-sm: "max-width: 767px"
+$bp-md: "min-width: 768px"
+$bp-lg: "min-width: 992px"
+$bp-xl: "min-width: 1200px"
+
+// @media( #{$bp-sm})
+// @media( #{$bp-md})
+// @media( #{$bp-lg})
+// @media( #{$bp-xl})
+
+// Base
+body
+	background: $grey-bg
+	box-sizing: border-box
+	font-family: $sans-serif
+	min-height: 100%
+	width: 100%
+
+.container-fluid, .row, .col, p
+  margin: 0
+  padding: 0
+
+.content-wrapper
+  padding: 10px 20px
+
+.top-menu
+  background: #FFF
+  display: block
+  height: 44px
+  text-transform: uppercase
+  border-bottom: 1px $grey-top-menu solid
+  a
+    color: $text-dark
+    display: block
+    font-size: 13px
+    font-weight: 600
+    line-height: 44px
+    padding: 0 20px
+    text-decoration: none
+    &:hover
+      color: $text-darker
+  
+
+.btn
+  border: none
+  padding: 10px 20px
+  font-size: 14px
+  &.btn-primary
+    background: $primary
+    border: none
+    outline-color: $primary
+    &:hover
+      background: rgba($primary, 0.9)
+    &:not(:disabled):not(.disabled):active
+      background: $primary
+      border: none
+      box-shadow: none
+      outline-color: $primary
+    &:focus
+      box-shadow: none
+
+h1
+  color: $text-darker
+  font-size: 22px
+  font-weight: 400
+
+p
+  color: $text-dark
+  font-size: 14px
+
+.header
+  display: block
+  position: relative
+  // margin-top: 20px
+
+.cta-button-panel
+  position: absolute
+  right: 0
+  top: 0
+  color: rgba(255,255,255,1)
+
+.MainPageSpinner
+  text-align: center
+  background: rgba(0,0,0,0.5)
+  width: 100%
+  height: 100%
+  padding-top: 200px
+  z-index: 3
+  position: absolute
+  h1
+    color: white
+    font-size: 80px
+.nav
+      display: block
+      list-style-type: unset
+      margin-block-start: 0
+      margin-block-end: 0
+      margin-inline-start: 0px
+      margin-inline-end: 0px
+      padding-inline-start: 0px
+      .nav-item 
+          display: inline-block
+      // .nav-item:after
+      //         content: ""
+      //         // margin-top: 35px
+      //         position: absolute
+      //         // margin-left: -50px
+      //         border-left: 12px solid transparent
+      //         border-right: 12px solid transparent
+      //         border-bottom: 10px solid darkgray

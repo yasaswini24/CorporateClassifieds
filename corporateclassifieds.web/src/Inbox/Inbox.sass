@@ -1,0 +1,45 @@
+@import '../App.sass'
+
+
+.Inbox
+    .InboxDetails
+        display: flex
+    .InboxLeft
+        flex-basis: auto
+        flex-grow: 0
+        flex-shrink: 0
+        .card
+            margin: 0 20px
+            min-height: 75vh
+            .card-header
+                padding: 0.25rem 1.25rem
+            .list-group-item.active 
+                z-index: 2
+                background-color: rgba(0,0,0,0.2)
+                border-color: unset
+                border: none
+                color:black!important
+    .InboxRight
+        flex-basis: auto
+        flex-grow: 1
+        margin-right: 15px
+        .Left
+            display: inline-block
+            flex: 0 0 450px
+        .Right
+            flex-grow: 1
+            display: block
+            flex-basis: auto
+        .card
+            min-height: 75vh
+            flex-direction: row
+            
+            .card-header
+                padding: 0.25rem 1.25rem
+            .list-group-item.active 
+                z-index: 2
+                background-color: rgba(0,0,0,0.2)
+                border-color: unset
+                border: none
+                color:black!important
+

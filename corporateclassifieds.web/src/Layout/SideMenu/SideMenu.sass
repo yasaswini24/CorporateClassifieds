@@ -1,0 +1,38 @@
+@import '../../App.sass'
+  
+.sidebar
+  background: rgb(62, 66, 73)
+  max-height: -webkit-fill-available
+  min-height: -webkit-fill-available
+  overflow: hidden
+  width: 100px
+  .menu
+    color: rgb(164, 170, 178)
+    display: block
+    padding: 11px // This will change based
+    text-decoration: none
+    &:hover
+      background: rgb(73, 77, 83)
+      color: #FFF
+      transition: all 0.1s ease-in-out
+    .sidebar-link-icon
+      display: block
+      font-size: 16px
+      text-align: center
+      i
+        font-size: 22px
+    .sidebar-link-text
+      display: block
+      font-size: 12px
+      font-weight: 500
+      line-height: 16px
+      text-align: center
+  .active
+    background: rgb(73, 77, 83)
+    color: #FFF
+    transition: all 0.1s ease-in-out
+
+.link-active
+  background: rgb(73, 77, 83)
+  .menu
+    color: #FFF

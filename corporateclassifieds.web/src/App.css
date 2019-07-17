@@ -1,0 +1,196 @@
+
+
+ .postedOn,.NavDescription
+{ 
+  white-space:nowrap;
+  word-wrap: break-word;
+  overflow: hidden;
+  text-overflow:ellipsis ;
+  text-align:middle;
+  padding:0;
+  opacity: 0.5;                                                                                                                                                                     
+}
+.logo
+{
+  width:5.76%!important;
+  height:60px;
+  background-color: #524361;
+  padding:0 0!important;
+  z-index:1;
+}
+
+
+.item{
+  background-color: transparent;
+  border: none;
+  width: 100%;
+  outline: none;
+}
+
+.item:hover
+{
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.item>img
+{
+  height: 35px;
+  padding: 7px 20px 0 20px;
+}
+.HeaderMain
+{
+  
+  height:60px;
+  color: white;
+  position:fixed;
+  left: 0;
+  top:0;
+  background-color: #76618B;
+  right: 0;
+  z-index:1;
+  padding:0!important;
+  margin:0!important;
+
+}
+
+.MainTitle{
+  font-family:headerfont ;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  font-size: 20px;
+  padding:18px 0  10px 15px;
+  float: left;
+  font-weight: 500;
+}
+
+.UserName{
+  font-size: 20px;
+  margin-block-start: 0;
+  position: fixed;
+  right:0;
+  padding:18px 20px 10px 0;
+  font-weight: 500;
+  
+}
+.emptySpace
+{
+  height:100%;
+}
+
+.mainHeader
+{
+  padding:0!important;
+}
+.image{
+padding:8px;
+}
+.ListItemHeader
+{
+  background-color:#F4F5F8;
+  color:black;
+}
+
+.UpperNav
+{
+  color:black;
+  background-color:#FFFFFF;
+  height:40px;
+  position:fixed;
+  top:60px;
+  
+  width:100%;
+  padding:0;
+  margin:0!important;
+  z-index: 1;
+padding:0!important;
+}
+.upperNavItem{
+  background-color: transparent;
+  border: none;
+  height:45px;
+  outline:none;
+  
+  font-size:16px;
+}
+.mainBody
+{
+position:relative;
+top:60px;
+width:100%;
+margin:0;
+}
+.empty
+{
+  width:6%!important;
+ opacity:0.9;
+ height:45px;
+ margin: 0!important;
+ padding:0!important;
+ z-index: -1;;
+}
+.ms-Grid
+{
+  padding:0 0;
+}
+.ListOfAds
+{
+  width: 100%!important;
+  position:relative;
+  top:0px;
+}
+.mainNav
+{
+  padding:0!important;
+}
+.NavInfoRow
+{
+  position:sticky;
+  top:100px;
+  
+  background-color:#F4F5F8;
+  z-index:1;
+  margin-right:0;
+width:105%!important;
+}
+.NavInfo{  margin-right:0!important;}
+
+.NavProp
+{
+  padding:40px 0 0 40px!important;
+}
+.NavTitle
+{
+font-size: 40px;
+font-weight:500;  
+}
+
+
+.ms-SearchBox,.root-57,.ms-Button
+{ height:53px!important;
+padding:10px;
+border-radius:5px;
+background-color: white;
+border: 1px solid rgb(169, 169, 169);
+}
+
+
+.Search
+{
+  padding-left:0!important;
+}
+.ListViewOption,.GridViewOption
+{
+  color: rgb(169, 169, 169);
+ 
+}
+
+.GridViewOption
+{
+  padding:0 !important;
+  background-color:#FFFFFF;
+}
+.ListViewOption
+{
+  padding:0 0 0 8px!important;
+  
+}
